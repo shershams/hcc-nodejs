@@ -1,4 +1,4 @@
-# Highline Community College - C SCI 244 Advanced JS with Node.js
+# C SCI 244 Advanced JS with Node.js
 
 ## Install Sublime Text
 
