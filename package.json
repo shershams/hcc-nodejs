@@ -1,0 +1,27 @@
+{
+  "name": "hcc_nodejs",
+  "version": "0.0.0",
+  "description": "Highline Community College",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shershams/hcc-nodejs.git"
+  },
+  "author": "",
+  "license": "BSD",
+  "readmeFilename": "README.md",
+  "devDependencies": {
+    "node": "0.0.0",
+    "underscore": "~1.4.4",
+    "async": "~0.2.8",
+    "express": "~3.2.4",
+    "socket.io": "~0.9.14",
+    "mongodb": "~1.3.3",
+    "forever": "~0.10.8",
+    "mongoose": "~3.6.10",
+    "socket.io-client": "~0.9.11"
+  }
+}
