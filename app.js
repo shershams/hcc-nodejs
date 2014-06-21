@@ -1,6 +1,6 @@
-var application_root = __dirname,
-    express = require("express"),
+var express = require("express"),
     app = express();
+
 
 // Root
 app.get( '/', function(req, res){
