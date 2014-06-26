@@ -2,9 +2,9 @@
 
 ## Install Ubuntu 12.04 LTS on your Windows
 
-Download VirtualBox and follow instructions from here: [https://www.virtualbox.org/wiki/Downloads](https://www.virtualbox.org/wiki/Downloads)
+Tutorial on how to install Ubuntu in VirtualBox: [http://extr3metech.wordpress.com/2012/10/14/installing-ubuntu-12-04-lts-on-virtualbox-with-screenshots-for-beginners/](http://extr3metech.wordpress.com/2012/10/14/installing-ubuntu-12-04-lts-on-virtualbox-with-screenshots-for-beginners/)
 
-Installing Ubuntu in VirtualBox: [http://www.wikihow.com/Install-Ubuntu-on-VirtualBox](http://www.wikihow.com/Install-Ubuntu-on-VirtualBox)
+Alternative video tutorial: [https://www.youtube.com/watch?v=hK-oggHEetc](https://www.youtube.com/watch?v=hK-oggHEetc)
 
 ## Configure environment
 
