@@ -50,6 +50,7 @@ Link to commands: [http://www.oliverdavies.co.uk/blog/2013/03/quickest-way-insta
 ## Get fresh copy of the source code
 
 	cd
+	mv hcc-nodejs hcc-nodejs_backup
 	git clone https://github.com/shershams/hcc-nodejs.git
 	cd hcc-nodejs
 	npm install
