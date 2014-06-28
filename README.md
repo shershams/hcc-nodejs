@@ -46,3 +46,11 @@ Link to commands: [http://www.oliverdavies.co.uk/blog/2013/03/quickest-way-insta
 	sudo add-apt-repository ppa:webupd8team/sublime-text-2
 	sudo apt-get update
 	sudo apt-get install sublime-text
+
+
+## Get fresh copy of the source code
+
+	cd
+	git clone https://github.com/shershams/hcc-nodejs.git
+	cd hcc-nodejs
+	npm install
