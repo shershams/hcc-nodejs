@@ -23,5 +23,5 @@ function create(req, res) {
 		email: email
 	});
 
-	res.json( { "status":"ok" } );
+	res.redirect( "/pages/html" );
 }

@@ -6,7 +6,7 @@
 
 	<script type="text/javascript">
 	
-		$.get('/data/json', function(data) {
+		$.get('/user', function(data) {
 			for( var i = 0; i < data.length; i++ ) {
 				$('#output').append( data[i].name +"<br/>" );
 				$('#output').append( data[i].email + "<br/>" );
@@ -23,7 +23,7 @@
 
 	<div>
 		<h2>Create a new user<h2>
-		<form action='/user/create' method='post'>
+		<form action='/user' method='post'>
 			Name: <input type='text' name='name' /> <br/>
 			Email: <input type='text' name='email' /> <br/>
 
