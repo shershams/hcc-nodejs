@@ -54,3 +54,26 @@ Link to commands: [http://www.oliverdavies.co.uk/blog/2013/03/quickest-way-insta
 	git clone https://github.com/shershams/hcc-nodejs.git
 	cd hcc-nodejs
 	npm install
+
+## Run the application with "forever"
+
+### Install forever as a global module 
+
+	sudo npm install forever -g
+
+### Run the application with forever
+	
+	forever start app.js
+
+### View forever logs
+	
+	forever list
+
+Copy the filepath under `logfile`
+	
+	tail -f {logfile filename goes here}
+
+For example:
+	
+	tail -f /home/student/.forever/wCtX.log
+
