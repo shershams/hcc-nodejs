@@ -2,7 +2,7 @@ var express = require("express");
 var app = express();
 var Home = require("./app/controllers/home");
 var User = require("./app/controllers/user");
-var Data = require("./app/controllers/data");
+var Pages = require("./app/controllers/pages");
 
 // Configure the application
 app.configure(function(){
@@ -13,15 +13,13 @@ app.configure(function(){
 // Home Page
 app.get( '/', Home.homePage);
 
-// User Page
-app.get( '/user', User.userPage);
-
 // Data Type Pages
-app.get( '/data/json', Data.jsonPage);
-app.get( '/data/html', Data.htmlPage);
+app.get( '/pages/json', Pages.jsonPage);
+app.get( '/pages/html', Pages.htmlPage);
 
 // User management
-app.post( '/user/create', Data.addUser);
+app.get( '/user', User.get);
+app.post( '/user', User.create);
 
 
 // Create server

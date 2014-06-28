@@ -1,8 +1,27 @@
-exports.userPage = userPage;
+exports.create = create;
+exports.get = get;
 
-function userPage(req, res) {
-  var response = "<h1>You are in the user page!</h1>";
-  response += "<a href='/'>Go to Home</a>";
+var users = [{
+	name : "Sherzod",
+	email : "shershams@gmail.com"
+}];
 
-  res.send(response);
+
+// Retrieve users
+function get(req, res) {
+  res.json(users);
+}
+
+
+// Add a new user
+function create(req, res) {
+	var name = req.body.name;
+	var email = req.body.email;
+
+	users.push({
+		name: name,
+		email: email
+	});
+
+	res.json( { "status":"ok" } );
 }

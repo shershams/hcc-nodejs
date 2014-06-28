@@ -11,3 +11,9 @@ sudo n 0.8.21
 sudo npm -v
 
 sudo npm install
+
+
+
+
+
+http://www.bootply.com/petrb/104740
