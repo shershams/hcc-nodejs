@@ -1,11 +1,27 @@
-var express = require("express"),
-    app = express();
+var express = require("express");
+var app = express();
+var Home = require("./app/controllers/home");
+var User = require("./app/controllers/user");
+var Data = require("./app/controllers/data");
 
-
-// Root
-app.get( '/', function(req, res){
-  res.send("<h1>C SCI 244 Advanced JS with Node.js</h1>");
+// Configure the application
+app.configure(function(){
+	app.use( express.bodyParser() );
 });
+
+
+// Home Page
+app.get( '/', Home.homePage);
+
+// User Page
+app.get( '/user', User.userPage);
+
+// Data Type Pages
+app.get( '/data/json', Data.jsonPage);
+app.get( '/data/html', Data.htmlPage);
+
+// User management
+app.post( '/user/create', Data.addUser);
 
 
 // Create server
